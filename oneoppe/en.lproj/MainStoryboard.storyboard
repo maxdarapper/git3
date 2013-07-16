@@ -62,19 +62,56 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Je3-k8-Soh">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QS3-90-mIJ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9a-np-ENi">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="G6F-1n-450" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="8me-VH-2pb"/>
                             <constraint firstItem="42G-sd-1iU" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="100" id="BZt-Yb-e8e"/>
+                            <constraint firstItem="W9a-np-ENi" firstAttribute="top" secondItem="QS3-90-mIJ" secondAttribute="top" type="default" id="DeD-3d-xTu"/>
+                            <constraint firstItem="QS3-90-mIJ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="113" id="GnK-zJ-KEa"/>
                             <constraint firstItem="xqb-wJ-098" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="HCv-1t-tP9"/>
                             <constraint firstItem="42G-sd-1iU" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="HKn-da-BUi"/>
                             <constraint firstItem="G6F-1n-450" firstAttribute="top" secondItem="3" secondAttribute="top" constant="91" id="Hth-hS-ThN"/>
-                            <constraint firstItem="Lqh-Nw-fgq" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="NEC-QR-H4T"/>
+                            <constraint firstItem="Lqh-Nw-fgq" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Moq-55-vEe"/>
+                            <constraint firstItem="Lqh-Nw-fgq" firstAttribute="top" secondItem="3" secondAttribute="top" constant="232" id="bV7-iX-flY"/>
+                            <constraint firstItem="Je3-k8-Soh" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="12" id="gVL-hO-yJS"/>
                             <constraint firstItem="AaV-Og-VRW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="15" id="kF4-2a-c4s"/>
                             <constraint firstItem="AaV-Og-VRW" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="klU-oF-yit"/>
+                            <constraint firstItem="QS3-90-mIJ" firstAttribute="baseline" secondItem="Je3-k8-Soh" secondAttribute="baseline" type="default" id="orA-Ts-x43"/>
                             <constraint firstItem="xqb-wJ-098" firstAttribute="top" secondItem="3" secondAttribute="top" constant="158" id="prW-QL-VjA"/>
-                            <constraint firstItem="Lqh-Nw-fgq" firstAttribute="top" secondItem="3" secondAttribute="top" constant="231" id="stY-tP-sXl"/>
+                            <constraint firstAttribute="bottom" secondItem="Je3-k8-Soh" secondAttribute="bottom" constant="72" id="qt8-nf-yWi"/>
+                            <constraint firstAttribute="trailing" secondItem="W9a-np-ENi" secondAttribute="trailing" constant="33" id="r7j-p9-qz7"/>
+                            <constraint firstItem="W9a-np-ENi" firstAttribute="baseline" secondItem="QS3-90-mIJ" secondAttribute="baseline" type="default" id="sUq-sR-Sxw"/>
                         </constraints>
                     </view>
                 </viewController>
